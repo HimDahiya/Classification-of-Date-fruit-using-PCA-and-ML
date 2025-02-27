@@ -1,6 +1,7 @@
 # INSE-6220-project
 The link for the taken dataset(fruits.csv) has been taken from the source -
 https://www.kaggle.com/datasets/muratkokludataset/date-fruit-datasets
+
 The study explores the synergy of machine learning, specifically Principal Component Analysis (PCA), to streamline the classification process. PCA, a dimensionality reduction technique, is em- ployed to transform complex datasets of date fruit attributes. The study aims to assess the effectiveness of PCA in reducing feature dimensions and subsequently applies three prominent machine learning classifiers—Naive Bayes, K-Nearest Neighbours, and Decision Tree—for accurate date fruit classification.
 
 Principal Component Analysis
