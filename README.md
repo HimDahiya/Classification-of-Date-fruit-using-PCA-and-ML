@@ -1,7 +1,14 @@
 # INSE-6220-project Date‑Fruit Classification with PCA & Optimised ML
+
 The link for the taken dataset(fruits.csv) has been taken from the source -
 https://www.kaggle.com/datasets/muratkokludataset/date-fruit-datasets
+
+# Date‑Fruit Classification with PCA & Optimised ML
+
 *Dimensionality‑reduction meets machine‑learning to sort seven premium date varieties with >92 % macro‑F1 accuracy.*
+
+---
+
 ---
 
 ## Introduction
@@ -47,15 +54,15 @@ By combining **PCA** (to strip redundancy) with simple yet powerful ML models, w
 ## 2 — Data Pipeline
 
 ```mermaid
-flowchart LR
-    A[Raw RGB Images (898)] --> B[Image Processing & Segmentation]
-    B --> C[Feature Extraction (34 vars)]
-    C --> D[Tabular Dataset]
-    D --> E[PCA – 2 Principal Components]
-    E --> F[Train/Test Split]
-    F --> G[Model Training (NB, KNN, DT)]
-    G --> H[Hyper‑param Tuning (PyCaret)]
-    H --> I[Evaluation – F1, Confusion, ROC]
+flowchart TD
+    RAW["Raw RGB Images"] --> SEG["Image Processing"]
+    SEG --> FEAT["Feature Extraction"]
+    FEAT --> DATA["Tabular Data"]
+    DATA --> PCA["PCA - 2 PCs"]
+    PCA --> SPLIT["Train/Test Split"]
+    SPLIT --> TRAIN["Model Training"]
+    TRAIN --> TUNE["Hyperparameter Tuning"]
+    TUNE --> EVAL["Evaluation"]
 ```
 
 *Key Features:* `PERIMETER`, `MAJORAXIS`, `MINORAXIS`, `ECCENTRICITY`, `EQDIASQ`, `SOLIDITY`, `CONVEXAREA`.
@@ -146,4 +153,6 @@ Code: **MIT** • Images/Data: CC‑BY‑4.0 (credit original Kaggle source).
 [LinkedIn](https://www.linkedin.com/in/your‑profile) • [Email](mailto\:your.email@example.com) • [Portfolio](https://your‑domain.com)
 
 > *“From pixels to predictions—one principal component at a time.”*
+
+
 
