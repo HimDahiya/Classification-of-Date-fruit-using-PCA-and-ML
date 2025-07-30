@@ -148,9 +148,7 @@ Code: **MIT** • Images/Data: CC‑BY‑4.0 (credit original Kaggle source).
 
 ## 9 — Author
 
-**Himanshu Dahiya**\
-[LinkedIn](https://www.linkedin.com/in/your‑profile) • [Email](mailto\:your.email@example.com) • [Portfolio](https://your‑domain.com)
-
+**Himanshu Dahiya**
 > *“From pixels to predictions—one principal component at a time.”*
 
 
